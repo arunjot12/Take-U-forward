@@ -3,10 +3,14 @@
 
 fn main() {
   let star = "*";
-  for _ in 0..5 {
-    for _ in 1..5{
+  let mut total = 5;
+
+  for i in 1..=5 {
+    for j in 1..total{
          print!("{}",star);
     }
-     println!("{}",star);
+     total-=1;
+    println!("{}",star);
  }
+
 }
