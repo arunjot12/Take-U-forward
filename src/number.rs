@@ -21,3 +21,15 @@ fn main() {
     println!("{}",i);
  }
 }
+
+fn main() {
+  let mut total = 5;
+
+  for _ in 1..=5 {
+    for j in 1..=total{
+         print!("{}",j);
+    }
+     total-=1;
+    println!("");
+ }
+}
